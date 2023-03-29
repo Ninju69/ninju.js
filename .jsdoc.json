@@ -1,0 +1,91 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": [
+            "jsdoc",
+            "closure"
+        ]
+    },
+    "source": {
+        "include": [
+            "src",
+            "package.json",
+            "README.md"
+        ],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules/|docs)"
+    },
+    "sourceType": "module",
+    "recurseDepth": 10,
+    "plugins": [
+        "plugins/markdown"
+    ],
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": true,
+        "useLongnameInNav": true,
+        "showInheritedInNav": true
+    },
+    "opts": {
+        "destination": "./docs/",
+        "encoding": "utf8",
+        "readme": "./README.md",
+        "recurse": true,
+        "verbose": true,
+        "template": "node_modules/clean-jsdoc-theme",
+        "theme_opts": {
+            "search": true,
+            "footer": "Powered by Coders",
+            "default_theme": "dark",
+            "base_url": "https://codersjs.netlify.app/",
+            "favicon": "https://github.com/brblacky/coders.js/blob/master/assets/Img/icon.png",
+            "homepageTitle": "CodersJS",
+            "title": "codersjs",
+            "menu": [
+                {
+                    "title": "Github",
+                    "id": "github",
+                    "link": "https://github.com/brblacky/coders.js"
+                },
+                {
+                    "title": "NPM",
+                    "id": "npm",
+                    "link": "https://www.npmjs.com/package/coders.js"
+                },
+                {
+                    "title": "Discord",
+                    "id": "discord",
+                    "link": "https://discord.com/invite/ns8CTk9J3e"
+                }
+            ],
+            "meta": [
+                {
+                    "name": "author",
+                    "content": "CodersJS"
+                },
+                {
+                    "name": "description",
+                    "content": "A simple, lightweight, and easy to use package for discord.js!"
+                }
+            ],
+            "codepen": {
+                "enable_for": [
+                    "examples"
+                ],
+                "options": {
+                    "js_external": "https://code.jquery.com/jquery-3.6.0.min.js",
+                    "js_pre_processor": "babel"
+                }
+            },
+            "sections": [
+                "Classes",
+                "Modules",
+                "Global"
+            ]
+        }
+    },
+        "markdown": {
+        "hardwrap": false,
+        "idInHeadings": true
+    }
+}
