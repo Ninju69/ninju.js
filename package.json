@@ -1,6 +1,6 @@
 {
-  "name": "coders.js",
-  "version": "1.0.4",
+  "name": "ninju.js",
+  "version": "1.0.0",
   "description": "An Advanced Package Manager for discord.js",
   "main": "./src/index.js",
   "types": "./typings/index.d.ts",
@@ -16,12 +16,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brblacky/coders.js.git"
+    "url": "git+https://github.com/ninju69/ninju.js.git"
   },
   "bugs": {
-    "url": "https://github.com/brblacky/coders.js/issues"
+    "url": "https://github.com/ninju69/ninju.js/issues"
   },
-  "homepage": "https://github.com/brblacky/coders.js#readme",
+  "homepage": "https://github.com/ninju69/ninju.js#readme",
   "keywords": [
     "discord.js",
     "pagination",
@@ -30,7 +30,7 @@
     "markdown",
     "captcha"
   ],
-  "author": "blacky",
+  "author": "Ninju",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.10.1",
