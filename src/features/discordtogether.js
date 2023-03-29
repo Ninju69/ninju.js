@@ -43,7 +43,7 @@ class DiscordTogether {
      *      GatewayIntentBits.GuildMessages,
      *     ],
      * });
-     * const { DiscordTogether } = require('coders.js');
+     * const { DiscordTogether } = require('ninju.js');
      *
      * client.discordTogether = new DiscordTogether(client);
      *
