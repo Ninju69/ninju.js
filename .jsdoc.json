@@ -35,33 +35,33 @@
         "template": "node_modules/clean-jsdoc-theme",
         "theme_opts": {
             "search": true,
-            "footer": "Powered by Coders",
+            "footer": "Powered by Ninju",
             "default_theme": "dark",
-            "base_url": "https://codersjs.netlify.app/",
-            "favicon": "https://github.com/brblacky/coders.js/blob/master/assets/Img/icon.png",
-            "homepageTitle": "CodersJS",
-            "title": "codersjs",
+            "base_url": "https://ninjujs.netlify.app/",
+            "favicon": "https://github.com/ninju69/ninju.js/blob/master/assets/Img/icon.png",
+            "homepageTitle": "NinjuJS",
+            "title": "ninjujs",
             "menu": [
                 {
                     "title": "Github",
                     "id": "github",
-                    "link": "https://github.com/brblacky/coders.js"
+                    "link": "https://github.com/ninju69/ninju.js"
                 },
                 {
                     "title": "NPM",
                     "id": "npm",
-                    "link": "https://www.npmjs.com/package/coders.js"
+                    "link": "https://www.npmjs.com/package/ninju.js"
                 },
                 {
                     "title": "Discord",
                     "id": "discord",
-                    "link": "https://discord.com/invite/ns8CTk9J3e"
+                    "link": "https://dsc.gg/teamcrypts"
                 }
             ],
             "meta": [
                 {
                     "name": "author",
-                    "content": "CodersJS"
+                    "content": "NinjuJS"
                 },
                 {
                     "name": "description",
