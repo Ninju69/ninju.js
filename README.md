@@ -1,6 +1,6 @@
 <h1  align="center"><strong>ninju.js</h1></strong>
 <b><p align="center">A simple, lightweight, and easy to use package for discord.js!</p></b>
-<b><p align= "center"><a href="https://codersjs.netlify.app/">Documentation</a> | <a href="https://dsc.gg/teamcrypts">Support Server</a></p></b>
+<b><p align= "center"><a href="https://www.npmjs.com/package/ninju.js/">Package</a> | <a href="https://dsc.gg/teamcrypts">Support Server</a></p></b>
 <p align="center">
     <a href="https://www.npmjs.com/package/ninju.js"><img src="https://img.shields.io/npm/v/ninju.js.svg?style=for-the-badge&label=ninju" alt="NPM Version" /></a>
     <a href="https://www.npmjs.com/package/ninju.js"><img src="https://img.shields.io/npm/dt/ninju.js.svg?style=for-the-badge" alt="NPM Downloads" /></a>
