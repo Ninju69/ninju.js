@@ -23,7 +23,7 @@ class Pagination {
      * @param {Number} time in milliseconds
      * @returns {Promise<void>}
      * @example
-     * const { Paginate } = require('coders.js');
+     * const { Paginate } = require('ninju.js');
      * const paginate = new Paginate();
      * paginate.setTimeout(60000);
      */
@@ -37,7 +37,7 @@ class Pagination {
      * @param {ButtonStyle} style of this format primary, secondary, success, danger
      * @returns {Promise<void>}
      * @example
-     * const { Paginate } = require('coders.js');
+     * const { Paginate } = require('ninju.js');
      * const paginate = new Paginate();
      * paginate.setStyle('primary');
      */
@@ -70,7 +70,7 @@ class Pagination {
      * * `stop` - stop pagination emoji (default: ⏹)
      * @returns {Promise<void>}
      * @example
-     * const { Paginate } = require('coders.js');
+     * const { Paginate } = require('ninju.js');
      * const paginate = new Paginate();
      * paginate.setEmojis({
      * first: '⏮',
@@ -90,7 +90,7 @@ class Pagination {
      * @param {Number} count of buttons equal 3, 5
      * @returns {Promise<void>}
      * @example
-     * const { Paginate } = require('coders.js');
+     * const { Paginate } = require('ninju.js');
      * const paginate = new Paginate();
      * paginate.setButtonCount(3);
      */
@@ -120,7 +120,7 @@ class Pagination {
      ** `setButtonCount` - set the number of buttons
      * @returns {Promise<void>}
      * @example
-     * const { Paginate } = require('coders.js');
+     * const { Paginate } = require('ninju.js');
      * const paginate = new Paginate();
      * const Pages = [
         'This is page 1',
