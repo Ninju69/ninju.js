@@ -6,7 +6,7 @@
  * @param {Number} size 
  * @returns {Array}
  * @example
- * const { chunk } = require('coders.js');
+ * const { chunk } = require('ninju.js');
  * console.log(chunk(['a', 'b', 'c', 'd'], 2));
  * // Output: [['a', 'b'], ['c', 'd']]
  */
@@ -25,7 +25,7 @@ function chunk(array, size) {
  * @param {String} string 
  * @returns {Number}
  * @example
- * const { StringToMs } = require('coders.js');
+ * const { StringToMs } = require('ninju.js');
  * console.log(StringToMs('1d'));
  * // Output: 86400000
  */
@@ -54,7 +54,7 @@ function StringToMs(string) {
 * @param {Number} ms 
 * @returns {String}
 * @example
-* const { ms } = require('coders.js');
+* const { ms } = require('ninju.js');
 * console.log(ms(86400000));
 * // Output: 1d
 */                                                                                                                                          
@@ -84,7 +84,7 @@ function ms(ms) {
  * @param {Number} time 
  * @returns {String}
  * @example
- * const { shuffleArray } = require('coders.js');
+ * const { shuffleArray } = require('ninju.js');
  * console.log(shuffleArray([1, 2, 3, 4, 5]));
  * // Output: [ 2, 5, 1, 4, 3 ]
  */
