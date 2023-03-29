@@ -24,7 +24,7 @@ class Dankmemer {
      * @param {String} text text to create meme
      * @returns {Promise<Buffer>}
      * @example
-     * const { Dankmemer } = require('coders.js');
+     * const { Dankmemer } = require('ninju.js');
      * const dankmemer = new Dankmemer('token');
      * const text = 'Hello World';
      * dankmemer.abandon(text).then(buffer => {
@@ -40,7 +40,7 @@ class Dankmemer {
      * @param {String} avatar user avatar
      * @returns {Promise<Buffer>}
      * @example
-     * const { Dankmemer } = require('coders.js');
+     * const { Dankmemer } = require('ninju.js');
      * const dankmemer = new Dankmemer('token');
      * const avatar = message.author.displayAvatarURL({ format: 'png' });
      * dankmemer.achievement(avatar).then(buffer => {
